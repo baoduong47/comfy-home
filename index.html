@@ -14,7 +14,72 @@
     <title>Home | Comfy</title>
   </head>
   <body>
-    <h2>home page</h2>
+    <!--Navbar-->
+    <nav class="navbar">
+      <nav class="nav-center">
+        <!--Links-->
+        <div>
+          <button class="toggle-nav">
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul class="nav-links">
+            <li>
+              <a href="index.html" class="nav-link">home</a>
+            </li>
+            <li>
+              <a href="products.html" class="nav-link">producta</a>
+            </li>
+            <li>
+              <a href="about.html" class="nav-link">about</a>
+            </li>
+          </ul>
+        </div>
+        <!--Logos-->
+        <img src="./images/logo-black.svg" class="nav-logo" alt="logo" />
+        <!--Cart Icon-->
+        <div class="toggle-container">
+          <button class="toggle-cart">
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+          <span class="cart-item-count">1</span>
+        </div>
+      </nav>
+    </nav>
+    <!--Hero-->
+    <section class="hero">
+      <div class="hero-container">
+        <h1 class="text-slanted">rest, relax, unwind</h1>
+        <h3>Embrace your choices - we do</h3>
+        <a href="products.html" class="hero-btn">Shop Now </a>
+      </div>
+    </section>
+    <!--Sidebar-->
+    <div class="sidebar-overlay show">
+      <aside class="sidebar">
+        <!--Close-->
+        <button class="sidebar-close">
+          <i class="fas fa-times"></i>
+        </button>
+        <!--Links-->
+        <ul class="sidebar-links">
+          <li>
+            <a href="index.html" class="sidebar-link"
+              ><i class="fas fa-home fa-fw"></i>Home</a
+            >
+          </li>
+          <li>
+            <a href="product.html" class="sidebar-link"
+              ><i class="fas fa-couch fa-fw"></i>Product</a
+            >
+          </li>
+          <li>
+            <a href="About.html" class="sidebar-link"
+              ><i class="fas fa-book fa-fw"></i>About</a
+            >
+          </li>
+        </ul>
+      </aside>
+    </div>
     <script type="module" src="index.js"></script>
   </body>
 </html>
